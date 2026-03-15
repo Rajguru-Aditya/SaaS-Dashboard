@@ -40,3 +40,66 @@ export const churnChartData = [
   { month: "May", churn: 0.9 },
   { month: "Jun", churn: 1.0 },
 ];
+
+export const recentActivity = [
+  {
+    id: 1,
+    date: "2026-03-15",
+    description: "New customer signed up",
+    amount: 100,
+  },
+  {
+    id: 2,
+    date: "2026-03-14",
+    description: "Customer paid $100",
+    amount: 100,
+  },
+  {
+    id: 3,
+    date: "2026-03-13",
+    description: "Customer cancelled subscription",
+    amount: 100,
+  },
+  {
+    id: 4,
+    date: "2026-03-12",
+    description: "Customer paid $100",
+    amount: 100,
+  },
+  {
+    id: 5,
+    date: "2026-03-11",
+    description: "Customer cancelled subscription",
+    amount: 100,
+  },
+  {
+    id: 6,
+    date: "2026-03-10",
+    description: "Customer paid $100",
+    amount: 100,
+  },
+  {
+    id: 7,
+    date: "2026-03-09",
+    description: "Customer cancelled subscription",
+    amount: 100,
+  },
+  {
+    id: 8,
+    date: "2026-03-08",
+    description: "Customer paid $100",
+    amount: 100,
+  },
+  {
+    id: 9,
+    date: "2026-03-07",
+    description: "Customer cancelled subscription",
+    amount: 100,
+  },
+  {
+    id: 10,
+    date: "2026-03-06",
+    description: "Customer paid $100",
+    amount: 100,
+  },
+];

@@ -1,3 +1,5 @@
+import CustomerGrowthChart from '@/components/charts/CustomerGrowthChart'
+import RevenueGrowthChart from '@/components/charts/RevenueGrowthChart'
 import ChurnWidget from '@/widgets/ChurnWidget'
 import CustomerWidget from '@/widgets/CustomerWidget'
 import RevenueWidget from '@/widgets/RevenueWidget'
@@ -8,6 +10,10 @@ const KPIGrid = () => {
         <RevenueWidget />
         <CustomerWidget />
         <ChurnWidget />
+        <div className="col-span-1 md:col-span-2 lg:col-span-3 grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <CustomerGrowthChart />
+          <RevenueGrowthChart />
+        </div>
     </div>
   )
 }
