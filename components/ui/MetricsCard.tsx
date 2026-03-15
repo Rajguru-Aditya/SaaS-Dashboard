@@ -34,7 +34,7 @@ const MetricsCard = ({title, value, percentage, icon}: {title: string, value: st
                 : percentage && percentage < 0 ? (
                     <span className="text-sm text-red-500 flex items-center">
                         <Image 
-                            src="https://img.icons8.com/material-outlined/100/fb2c36/down.png"
+                            src="https://img.icons8.com/windows/100/fb2c36/down--v1.png"
                             alt="Down"
                             className="w-3 h-3"
                             width={16}
