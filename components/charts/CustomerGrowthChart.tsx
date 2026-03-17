@@ -2,7 +2,7 @@
 
 import { CartesianGrid, Line, LineChart, XAxis } from "recharts"
 import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
-import { customerChartData } from "@/lib/mockData"
+import { dashboardData } from "@/lib/mockData"
 
 const chartConfig = {
     customers: {
@@ -18,7 +18,7 @@ const CustomerGrowthChart = () => {
         <ChartContainer config={chartConfig}>
           <LineChart
             accessibilityLayer
-            data={customerChartData}
+            data={dashboardData.charts.customerGrowth}
             margin={{
               left: 12,
               right: 12,
