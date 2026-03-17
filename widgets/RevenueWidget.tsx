@@ -1,13 +1,13 @@
 import MetricsCard from "@/components/ui/MetricsCard"
 import { dashboardData } from "@/lib/mockData"
 
-const RevenueWidget = () => {
+const RevenueWidget = ({ data }: { data: any }) => {
   return (
     <div>
         <MetricsCard
           title="Revenue"
-          value={dashboardData.metrics.revenue.value}
-          percentage={dashboardData.metrics.revenue.change}
+          value={data?.value}
+          percentage={data?.change}
           icon={<img src="https://img.icons8.com/material-outlined/96/stocks-growth.png" alt="Revenue Growth" className="w-6 h-6"/>}
         />
     </div>

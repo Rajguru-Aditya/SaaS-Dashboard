@@ -11,14 +11,14 @@ const chartConfig = {
     },
 } satisfies ChartConfig
 
-const CustomerGrowthChart = () => {
+const CustomerGrowthChart = ({ data }: { data: any }) => {
   return (
     <div className="bg-white rounded-lg shadow-md p-4 w-full">
         <h3 className="text-lg font-medium text-gray-900 font-sans">Customer Growth</h3>
         <ChartContainer config={chartConfig}>
           <LineChart
             accessibilityLayer
-            data={dashboardData.charts.customerGrowth}
+            data={data}
             margin={{
               left: 12,
               right: 12,
