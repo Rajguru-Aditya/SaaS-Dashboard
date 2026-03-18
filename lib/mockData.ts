@@ -159,3 +159,20 @@ export const dashboardData = {
     customerBreakdown: customerConversionData
   }
 }
+
+export const customerAnalyticsData = {
+  growth: dashboardData.charts.customerGrowth,
+  acquisition: {
+    bySource: dashboardData.conversions.bySource,
+    breakdown: dashboardData.conversions.customerBreakdown
+  },
+  retention: [
+    { month: "Jan", retention: 90 },
+    { month: "Feb", retention: 88 },
+    { month: "Mar", retention: 85 },
+    { month: "Apr", retention: 82 },
+    { month: "May", retention: 80 },
+    { month: "Jun", retention: 78 },
+  ],
+  recentActivity: dashboardData.activity
+}
