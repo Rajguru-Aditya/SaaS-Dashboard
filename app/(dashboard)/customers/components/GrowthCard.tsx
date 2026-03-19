@@ -15,7 +15,7 @@ const GrowthCard = ({data} : {data: any[]}) => {
     <div className="bg-white rounded-lg shadow-md p-4">
         <h3 className="text-lg font-medium text-gray-900 font-sans">Customer Growth</h3>
         {/* Line Chart */}
-        <div className="mt-4 h-48 bg-gray-100 rounded-lg">
+        <div className="mt-4 h-80 bg-gray-100 rounded-lg p-3 pt-2">
           <ChartContainer config={chartConfig}>
             <LineChart
               accessibilityLayer
